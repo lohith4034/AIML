@@ -1,0 +1,8 @@
+from math import sqrt
+a=float(input("a=  "))
+b=float(input("b=  "))
+c=float(input("c=  "))
+r=b**2 - 4*a*c
+a1 =(((-b) + sqrt(r))/(2*a))     
+b1=(((-b) - sqrt(r))/(2*a))
+print("the roots are %f and %f",a1,b1)
